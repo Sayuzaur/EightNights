@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "eightnights",
+  "version": "${version}",
+
+  "name": "EightNights",
+  "description": "Celebrate holidays with new items!",
+  "authors": [
+    "Sayuzaur"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Sayuzaur",
+    "sources": "https://github.com/Sayuzaur/EightNights"
+  },
+
+  "license": "EUPL-1.2",
+  "icon": "assets/eightnights/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "io.github.sayuzaur.eightnights.event.init.InitListener",
+      "io.github.sayuzaur.eightnights.event.init.BlockListener"
+    ],
+    "stationapi:event_bus_client": [
+    ],
+    "stationapi:event_bus_server": [
+    ]
+  },
+  "mixins": [
+    "eightnights.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3",
+    "stationapi": ">=2.0.0-alpha.6.4",
+    "foodies": ">=1.1.4"
+  }
+}

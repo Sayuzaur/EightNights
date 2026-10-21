@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s",
+    "h"
+  ],
+  "key": {
+    "s": {
+      "tag": "c:strings"
+    },
+    "h": {
+      "item": "foodies:honey"
+    }
+  },
+  "result": {
+    "item": "eightnights:candle"
+  }
+}

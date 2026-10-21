@@ -1,0 +1,21 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "candle":"eightnights:block/candle",
+    "particle":"#candle"
+  },
+  "elements": [
+    {
+      "from": [11.5, 7, 7.5],
+      "to": [12.5, 11, 8.5],
+      "faces": {
+        "north": {"uv": [0, 0, 1, 4], "texture": "#candle", "emission": 0.25 },
+        "east": {"uv": [0, 0, 1, 4], "texture": "#candle", "emission": 0.25 },
+        "south": {"uv": [1, 0, 2, 4], "texture": "#candle", "emission": 0.25 },
+        "west": {"uv": [1, 0, 2, 4], "texture": "#candle", "emission": 0.25 },
+        "up": {"uv": [1, 1, 2, 2], "texture": "#candle", "emission": 0.25 },
+        "down": {"uv": [1, 0, 2, 1], "texture": "#candle"}
+      }
+    }
+  ]
+}

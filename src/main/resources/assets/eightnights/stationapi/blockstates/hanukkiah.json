@@ -1,0 +1,922 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/hanukkiah",
+          "y": 180
+        }
+      ],
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/hanukkiah",
+          "y": 270
+        }
+      ],
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/hanukkiah",
+          "y": 0
+        }
+      ],
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/hanukkiah",
+          "y": 90
+        }
+      ],
+      "when": {
+        "facing": "west"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle1",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "1|2|3|4|5|6|7|8|9",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "north",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "east",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "south",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "west",
+        "lit": "true"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle1",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "1|2|3|4|5|6|7|8|9",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle2",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "2|3|4|5|6|7|8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle3",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "3|4|5|6|7|8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle4",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "4|5|6|7|8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle5",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "5|6|7|8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle6",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "6|7|8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle7",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "7|8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle8",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "8|9",
+        "facing": "west",
+        "lit": "false"
+      }
+    },
+
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 0
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "north",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 90
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "east",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 180
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "south",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "eightnights:block/h_candles/lit_candle9",
+          "y": 270
+        }
+      ],
+      "when": {
+        "number_of_candles": "9",
+        "facing": "west",
+        "lit": "false"
+      }
+    }
+  ]
+}
